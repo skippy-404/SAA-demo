@@ -1,0 +1,74 @@
+spring:
+    application:
+        name: z-log
+    #database
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/zlog_data?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+        hikari:
+            minimum-idle: 5
+            maximum-pool-size: 15
+            auto-commit: true
+            idle-timeout: 30000
+            pool-name: HikariCP
+            max-lifetime: 1800000
+            connection-timeout: 30000
+            connection-test-query: SELECT 1
+    ai:
+        dashscope:
+            api-key: ${DASHSCOPE_API_KEY}
+            base-url: https://dashscope.aliyuncs.com/compatible-mode
+            chat:
+                options:
+                    model: qwen-max
+                client:
+                    observations:
+                        # default value is false.
+                        log-prompt: true
+                observations:
+                    log-prompt: true
+                    log-completion: true
+                    include-error-logging: true
+        openai:
+            api-key: ${OPENAI_API_KEY}
+            model: gpt-4.0
+            base-url: https://api.openai-hub.com/
+    server:
+        port: 8080
+        address: localhost
+    # logger set
+    logging:
+        file:
+            path: ./logs
+            name: ./logs/z-log.log
+        level:
+            root: info
+            com.zlog: debug
+            org.springframework.web: DEBUG
+            com.zlog.admin: DEBUG
+            org.springframework.ai: DEBUG
+            org.springframework.ai.chat.client.advisor: TRACE
+            generationz.zlog: DEBUG
+    # File storage
+    file:
+        upload-dir: ./uploads
+    security:
+        user:
+            name: user
+            password: 123456
+management:
+    tracing:
+        sampling:
+            probability: 1.0    # Sample 100% of requests for full tracing (adjust in production as needed)
+    observations:
+        annotations:
+            enabled: true
+otel:
+    exporter:
+        otlp:
+            endpoint: https://cloud.langfuse.com/api/public/otel
+            headers:
+                Authorization: Basic cGstbGYtOGM5OWJlOWUtNWEzMC00NWI5LTg0NTYtNzQ4YzM4NTRhZmNiOnNrLWxmLWYyZThiMDcxLTllMzgtNDQzNS04ZmQwLTQ0MTk4MDg3ODQxZQ==
+                # Basic pk:sk base64

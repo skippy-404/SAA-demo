@@ -1,0 +1,161 @@
+2025-07-08 07:30:33.846 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 105 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:30:33.848 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:30:33.848 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:30:34.413 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:30:34.419 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:30:34.420 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:30:34.420 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:30:34.441 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:30:34.441 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+2025-07-08 07:30:34.819 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:30:34.858 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:30:34.969 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:30:34.973 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:30:34.978 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 1.508 seconds (process running for 1.893)
+2025-07-08 07:30:40.500 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 07:30:40.515 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 07:34:07.444 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 3953 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:34:07.445 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:34:07.445 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:34:08.149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:34:08.158 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:34:08.158 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:34:08.159 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:34:08.182 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:34:08.182 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 721 ms
+2025-07-08 07:34:08.686 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 07:34:08.702 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:34:08.754 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:34:08.934 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:34:08.938 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:34:08.948 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 1.9 seconds (process running for 2.314)
+2025-07-08 07:34:09.511 [RMI TCP Connection(4)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 07:34:09.511 [RMI TCP Connection(4)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 07:34:09.512 [RMI TCP Connection(4)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-08 07:35:43.626 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 07:35:59.139 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 5776 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:35:59.141 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:35:59.141 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:36:00.182 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:36:00.188 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:36:00.189 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:36:00.189 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:36:00.211 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:36:00.212 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1031 ms
+2025-07-08 07:36:00.660 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 07:36:00.672 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:36:00.712 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:36:00.952 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:36:00.957 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:36:00.968 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 2.798 seconds (process running for 3.437)
+2025-07-08 07:36:01.114 [RMI TCP Connection(3)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 07:36:01.114 [RMI TCP Connection(3)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 07:36:01.114 [RMI TCP Connection(3)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-07-08 07:41:26.080 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 07:41:26.145 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 07:41:27.953 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 11238 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:41:27.954 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:41:27.954 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:41:28.690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:41:28.699 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:41:28.700 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:41:28.700 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:41:28.730 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:41:28.730 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 739 ms
+2025-07-08 07:41:29.142 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 07:41:29.153 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:41:29.193 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:41:29.397 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:41:29.407 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:41:29.432 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 1.97 seconds (process running for 2.29)
+2025-07-08 07:41:29.865 [RMI TCP Connection(2)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 07:41:29.865 [RMI TCP Connection(2)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 07:41:29.866 [RMI TCP Connection(2)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-08 07:46:21.219 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 07:46:21.261 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 07:46:23.434 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 16112 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:46:23.435 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:46:23.435 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:46:24.215 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:46:24.222 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:46:24.223 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:46:24.223 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:46:24.253 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:46:24.253 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 787 ms
+2025-07-08 07:46:24.757 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 07:46:24.775 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:46:24.890 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:46:25.065 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:46:25.070 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:46:25.080 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 2.654 seconds (process running for 2.927)
+2025-07-08 07:46:25.358 [RMI TCP Connection(3)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 07:46:25.358 [RMI TCP Connection(3)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 07:46:25.359 [RMI TCP Connection(3)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-08 07:49:14.552 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 07:49:14.572 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 07:49:16.578 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 19009 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:49:16.580 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:49:16.581 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:49:17.377 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:49:17.383 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:49:17.383 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:49:17.383 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:49:17.406 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:49:17.406 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 799 ms
+2025-07-08 07:49:17.856 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 07:49:17.865 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 984adc56-24cd-4400-90a1-5f6a89b26f9e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-08 07:49:17.868 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:49:17.904 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:49:18.094 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:49:18.098 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:49:18.108 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 1.937 seconds (process running for 2.679)
+2025-07-08 07:49:18.232 [RMI TCP Connection(3)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 07:49:18.233 [RMI TCP Connection(3)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 07:49:18.234 [RMI TCP Connection(3)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-08 07:50:01.712 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 07:50:01.724 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 07:50:04.062 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 19785 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 07:50:04.063 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 07:50:04.063 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 07:50:04.824 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 07:50:04.829 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:50:04.830 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 07:50:04.830 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 07:50:04.860 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 07:50:04.860 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+2025-07-08 07:50:05.354 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 07:50:05.366 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 07:50:05.404 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 07:50:05.574 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 07:50:05.578 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 07:50:05.589 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 2.182 seconds (process running for 3.2)
+2025-07-08 07:50:05.792 [RMI TCP Connection(4)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 07:50:05.792 [RMI TCP Connection(4)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 07:50:05.793 [RMI TCP Connection(4)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-08 13:30:00.667 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 13:30:00.712 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-08 20:50:01.677 [main] INFO  generationz.zlog.ZLogApplication - Starting ZLogApplication using Java 17.0.14 with PID 60306 (/Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log/target/classes started by skippy in /Users/skippy/Documents/GitHub/Generation-Z-Log/z-log-web/admin/z-log)
+2025-07-08 20:50:01.678 [main] DEBUG generationz.zlog.ZLogApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-08 20:50:01.679 [main] INFO  generationz.zlog.ZLogApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-08 20:50:03.926 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-08 20:50:03.947 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-08 20:50:03.949 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-08 20:50:03.949 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08 20:50:04.076 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-08 20:50:04.077 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2340 ms
+2025-07-08 20:50:05.084 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-08 20:50:05.103 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-08 20:50:05.169 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-08 20:50:05.528 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-08 20:50:05.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-08 20:50:05.558 [main] INFO  generationz.zlog.ZLogApplication - Started ZLogApplication in 5.698 seconds (process running for 6.458)
+2025-07-08 20:50:05.858 [RMI TCP Connection(4)-192.168.2.9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08 20:50:05.860 [RMI TCP Connection(4)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-08 20:50:05.862 [RMI TCP Connection(4)-192.168.2.9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-08 21:47:38.538 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08 21:47:38.737 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
